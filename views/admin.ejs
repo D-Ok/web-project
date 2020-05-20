@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <title class="lang">Admin</title>
+</head>
+<body>
+
+<h1>Заявки</h1>
+    <% for(var i=0; i<users.length;i++) {%>
+        <div class="adminDiv">
+            <p><b>Прізвище та ім'я:</b> <%=users[i].name %></p>
+            <p><b>Email:</b> <%=users[i].email %></p>
+            <p><b>Телефон:</b> <%=users[i].phone %></p>
+            <p><b>Коментар:</b> <%=users[i].comment %></p>
+            <p><b>Статус:</b> <%if(users[i].registred){%>
+                    Підтвержено
+                    <%} else {%>
+                    Очікується підтверження
+                    <%}%></p>
+        </div>
+        <%} %>
+</body>
+</html>

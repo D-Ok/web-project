@@ -1,0 +1,18 @@
+{
+  "title": "Cool Site",
+  "mainP": "Main",
+  "books": "Books",
+  "about": "About us",
+  "signUp": "Sign Up",
+  "signIn": "Sign In",
+  "name": "Name and Surname",
+  "email": "Email address",
+  "phone": "Phone number",
+  "password": "Password",
+  "comment": "Comments",
+  "mainHeader": "Enjoy our cool site! Who doesn't want to enjoy - you are worse off!",
+  "mainText": "Welcome to our book catalog!",
+  "aboutText": "We are cool!",
+  "b": "Books:",
+  "author": "Author"
+}
